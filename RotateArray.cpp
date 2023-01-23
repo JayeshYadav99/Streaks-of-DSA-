@@ -2,16 +2,9 @@
 #include <iostream>
 using namespace std;
 
-int main() {
-    int n,k;
-    cin>>n;
-    int arr[n];
-    for(int i=0;i<n;i++)
-    {
-        cin>>arr[i];
-        
-    }
-    cin>>k;
+RotateArray(int arr[],int n,int k)
+{
+    
     int a[k];
     int i=0;
     while(i!=k)
@@ -39,14 +32,27 @@ int main() {
        i++;
        j++;
     }
-    
-     for(int i=0;i<n;i++)
+  
+}
+
+int main(){
+
+ int n,k;
+    cin>>n;
+    int arr[n];
+    for(int i=0;i<n;i++)
+    {
+        cin>>arr[i];
+        
+    }
+    cin>>k;;
+
+    RotateArray(arr,n,k);
+    for(int i=0;i<n;i++)
     {
         cout<<arr[i]<<" ";
         
     }
-
  
-
-    return 0;
+return 0;
 }
