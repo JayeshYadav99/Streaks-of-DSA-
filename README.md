@@ -3,7 +3,7 @@
  
 
 # Streaks-of-DSA
-Question Practice on Data Structures and Algorits
+Question Practice on Data Structures and Algorithms
 | Problem                            | Link                                      |Solution                                                                                                                                                                                                                                                                             |
 |------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
 | Reverse the array                  | [Link](https://www.codingninjas.com/codestudio/problems/reverse-the-array_1262298?topList=love-babbar-dsa-sheet-problems)</h1> | [Codes](https://github.com/JayeshYadav99/Streaks-of-DSA-/blob/main/ReverseArray.cpp)                                                                                                                                                                                                                                                                        |
