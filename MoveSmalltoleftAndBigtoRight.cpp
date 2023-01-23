@@ -16,3 +16,27 @@ vector<int> separateNegativeAndPositive(vector<int> &nums){
     }
 
 }
+//2nd approach
+vector<int> separateNegativeAndPositive(vector<int> &nums){
+    //te your code here.
+   int start=0;
+   int mid=0;
+   int end=nums.size()-1;
+   while(mid<=end)
+   {
+       if(nums[mid]<0)
+       {
+           swap(nums[start],nums[mid]);
+           start++;
+           mid++;
+       }
+       else
+       {
+           swap(nums[mid],nums[end]);
+           end--;
+           
+           
+       }
+   }
+return nums;
+}
